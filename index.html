@@ -8,10 +8,17 @@
     <title>Open Weather</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="serachbar"><input class="searchbar-input" type="text" placeholder="city name.." /></div>
+        <div class="city-weather">
+            <div class="city-main"><span id="cityName">City Name</span></div>
+            <div class="city-temperature"><span id='cityTemperature'>Hava Sıcaklığı</span></div>
+            <div class="city-description"><span id='cityDescription' >Hava Durumu</span></div>
+        </div>  
+    </div>
 
 
-
+    <script src="./js/request.js"></script>
     <script src="./js/app.js"></script>
 </body>
 </html>

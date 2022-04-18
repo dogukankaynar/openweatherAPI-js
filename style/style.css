@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    font-size: 19px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    display:flex;
+    justify-content:center;
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.container{
+width: 30em;
+height: 30em;
+margin-top: 5em;
+display: flex;
+justify-content:center;
+flex-direction: column;
+border:none;
+border-radius: 2em;
+box-shadow: 1px 1px 9px 8px rgba(0,0,0,0.2);
+
+gap:2em;
+}
+.serachbar{
+    width: 30em;
+    height:3em;
+    display: flex;
+    justify-content:center;
+}
+.searchbar-input{
+    width: 24em;
+    border:none;
+    border-radius: 2em;
+    background-color:#00ffff;
+    opacity: 0.7;
+    padding: 0px 15px;
+    background-image: url("https://img.icons8.com/windows/32/000000/search--v1.png");
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.searchbar-input:focus{
+    border:none;
+    background-color:#00ffff;
+    outline: none;
+    opacity:0.9;
+}
+.city-weather{
+    width: 30em;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+    color: white;
+}
+#cityName{
+    font-size:2em;
+    font-weight:bold;
+    color:white ;
+    transition:0.5s
+}
+
+#cityTemperature{
+    font-size:2em;
+    font-weight:bold;
+    color:white ;
+}
+#cityDescription{
+    font-size:2em;
+    font-weight:bold;
+    color:white ;
+}

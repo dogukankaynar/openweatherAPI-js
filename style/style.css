@@ -8,7 +8,6 @@
 body{
     display:flex;
     justify-content:center;
-    background-image: url(/img/bg.jpg);
     background-repeat: no-repeat;
     background-size:cover;
     height: 100vh;
@@ -61,16 +60,28 @@ gap:2em;
     font-size:2em;
     font-weight:bold;
     color:white ;
-    transition:0.5s
+    transition:0.5s;
+    border-radius:10px;
+    box-shadow: 1px 1px 9px 8px rgba(0,0,0,0.2);
+    color:black;
+    opacity:0.6;
 }
 
 #cityTemperature{
     font-size:2em;
     font-weight:bold;
     color:white ;
+    border-radius:10px;
+    box-shadow: 1px 1px 9px 8px rgba(0,0,0,0.2);
+    color:black;
+    opacity:0.6;
 }
 #cityDescription{
     font-size:2em;
     font-weight:bold;
     color:white ;
+    border-radius:10px;
+    box-shadow: 1px 1px 9px 8px rgba(0,0,0,0.2);
+    color:black;
+    opacity:0.6;
 }
